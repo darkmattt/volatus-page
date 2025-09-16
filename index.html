@@ -4,15 +4,15 @@
 <head>
     <meta charset="utf-8">
     <title>Volatus</title>
-    <link rel="icon" href="img/logoM.png">
-    <link rel="stylesheet" type="text/css" href="styles/styles.css?v=1">
+    <link rel="icon" href="img/logoM.svg">
+    <link rel="stylesheet" type="text/css" href="styles/styles.css?v=2">
 </head>
 
 <body>
     <!-- Pasek -->
     <div id="pasek">
         <a href="https://www.volatus.pl">
-            <img src="img/logoA.png" alt="Logo">
+            <img src="img/logo.svg" alt="Logo">
         </a>
     </div>
 
@@ -36,7 +36,7 @@
                 <b>Plany</b>
             </a>
             <a href="#link-contact" class="tile">
-                <img src="img/kontakt.jpg" alt="">
+                <img src="img/socials3.png" alt="">
                 <b>Kontakt i social media</b>
             </a>
         </div>
@@ -58,8 +58,10 @@
         </div>
         <!-- O zespole -->
         <h2 id="link-about">O zespole</h2>
-        <p>Jesteśmy zespołem z I Liceum Ogólnokształcącego w Brzozowie. W skład grupy wchodzi pięcioro uczniów klasy
-            trzeciej i jeden uczeń z klasy drugiej, a naszym opiekunem jest pani Joanna Chęć.</p>
+        <div class="panel">
+            <p>Jesteśmy zespołem z I Liceum Ogólnokształcącego w Brzozowie. W skład grupy wchodzi pięcioro uczniów klasy
+                trzeciej i jeden uczeń z klasy drugiej, a naszym opiekunem jest pani Joanna Chęć.</p>
+        </div>
         <div class="panel about">
             <div class="about-text">
                 <h3>Joanna Chęć</h3>
@@ -169,7 +171,7 @@
         <h2 id="link-contact">Gdzie nas spotkać?</h2>
         <div class="panel socials">
             <button class="social" id="przyciskEmail">
-                <img src="img/mail.jpg" alt="Protonmail"><span id="email">E-mail</span>
+                <img src="img/mail.svg" alt="Protonmail"><span id="email">E-mail</span>
                 <span id="tooltip">Skopiowano</span>
             </button>
             <a class="social" href="https://www.tiktok.com/@volatuscs?_t=ZN-8zajjHHh5mA&_r=1">
@@ -181,8 +183,8 @@
             <a class="social" href="https://www.facebook.com/share/1Aj3updFuc/">
                 <img src="img/facebook.png" alt=Facebook""> Facebook
             </a>
-            <a class="social" href="">
-                <img src="img/github.png" alt="GitHub"> GitHub (Wkrótce)
+            <a class="social" href="https://github.com/volatus-CanSat">
+                <img src="img/github.png" alt="GitHub"> GitHub
             </a>
         </div>
     </div>
@@ -190,22 +192,19 @@
     <script>
         const adresEmail = document.getElementById("email");
         const przyciskEmail = document.getElementById("przyciskEmail");
-        const tooltip = document.getElementById("tooltip"); // assuming you have this span
+        const tooltip = document.getElementById("tooltip");
         const mail = "volatus.cs@protonmail.com";
         przyciskEmail.addEventListener("click", (e) => {
             const currentText = adresEmail.textContent;
             if (currentText === mail) {
-                // Copy to clipboard
                 navigator.clipboard.writeText(mail)
                     .then(() => {
-                        // Show tooltip above cursor
                         tooltip.style.left = `${e.clientX}px`;
                         tooltip.style.top = `${e.clientY - 20}px`;
                         tooltip.classList.add('show');
                         setTimeout(() => tooltip.classList.remove('show'), 1000);
                     });
             } else {
-                // First click: show email
                 adresEmail.textContent = mail;
             }
         });
