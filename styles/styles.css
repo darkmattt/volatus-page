@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200..1000&family=Offside&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
     margin: 0;
@@ -11,7 +11,7 @@ html {
 }
 
 body {
-    font-family: "Nunito", sans-serif;
+    font-family: "Montserrat", sans-serif;
     background: radial-gradient(circle at top, #0a0f25, #000);
     color: #e5e5e5;
     font-size: 36px;
@@ -56,16 +56,31 @@ body {
     padding: 0 20px;
 }
 
+#sub-strona {
+    max-width: 1300px;
+    margin: 210px auto 50px auto;
+    padding: 0 20px;
+}
+
+h1 {
+    font-size: 64px;
+    text-align: center;
+    margin: 10px 0 50px 0;
+    padding: 10px;
+    border: 2px solid #0ff;
+    border-radius: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+
 h2 {
     font-size: 52px;
     text-align: center;
     margin: 50px 0 25px 0;
     padding: 10px;
-    background: linear-gradient(to right, #0ff33d11, #0ff33d44);
     border: 2px solid #0ff;
     border-radius: 10px;
     scroll-margin-top: 180px;
-    font-family: "Offside", sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 h3 {
@@ -233,10 +248,91 @@ li {
     opacity: 1;
 }
 
+/* Podstrony */
+.sub-about-img {
+    width: 90%;
+    margin: 0px auto;
+    border-radius: 50%;
+    border: 3px solid #0ff;
+    object-fit: cover;
+    box-shadow: 0 0 20px #0ff6;
+    transition: 0.3s;
+}
+
+.sub-about-img:hover {
+    transform: scale(1.2);
+    border-color: #f0f;
+    animation: scaleUpDown 0.7s;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
 /* Poprawa błędów */
 .list {
     padding-left: 40px;
 }
+
+/* Kolory */
+h1.c1 {
+    background: linear-gradient(to right, #0ff33d44, #0ff33d77, #0ff33d44);
+}
+
+h2.c1 {
+    background: linear-gradient(to right, #0ff33d11, #0ff33d44);
+}
+
+h1.c2 {
+    background: linear-gradient(to right, #3df30f44, #3df30f77, #3df30f44);
+}
+
+h2.c2 {
+    background: linear-gradient(to right, #3df30f11, #3df30f44);
+}
+
+h1.c3 {
+    background: linear-gradient(to right, #ccf30f44, #ccf30f77, #ccf30f44);
+}
+
+h2.c3 {
+    background: linear-gradient(to right, #ccf30f11, #ccf30f44);
+}
+
+h1.c4 {
+    background: linear-gradient(to right, #f3a20f44, #f3a20f77, #f3a20f44);
+}
+
+h2.c4 {
+    background: linear-gradient(to right, #f3a20f11, #f3a20f44);
+}
+
+h1.c5 {
+    background: linear-gradient(to right, #f30f0f44, #f30f0f77, #f30f0f44);
+}
+
+h2.c5 {
+    background: linear-gradient(to right, #f30f0f11, #f30f0f44);
+}
+
+h1.c6 {
+    background: linear-gradient(to right, #9b0ff344, #9b0ff377, #9b0ff344);
+}
+
+h2.c6 {
+    background: linear-gradient(to right, #9b0ff311, #9b0ff344);
+}
+
+h1.c7 {
+    background: linear-gradient(to right, #0f66f344, #0f66f377, #0f66f344);
+}
+
+h2.c7 {
+    background: linear-gradient(to right, #0f66f311, #0f66f344);
+}
+
+
 
 /* Responsywność */
 @media (min-width: 1200px) {
@@ -244,6 +340,10 @@ li {
     #email,
     body {
         font-size: 20px;
+    }
+
+    h1 {
+        font-size: 44px;
     }
 
     h2 {
@@ -287,6 +387,11 @@ li {
         padding: 0 20px;
     }
 
+    #sub-strona {
+        margin-top: 180px;
+        padding: 0 20px;
+    }
+
     p {
         margin: 10px 0;
     }
@@ -294,4 +399,23 @@ li {
     .social {
         flex: 1.5 0 10%;
     }
+
+    .sub-about-img {
+        width: 85%;
+    }
+
+    .side {
+        width: 66%;
+        display: inline-block;
+    }
+
+    .center {
+        width: 33%;
+        display: inline-block;
+    }
+
+    .flex {
+        display: flex;
+    }
+
 }
