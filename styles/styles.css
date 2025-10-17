@@ -191,6 +191,15 @@ li {
     }
 }
 
+#wiecej-lk {
+    text-decoration: none;
+    color: #0ff;
+}
+
+#wiecej-lk:hover {
+    color: #f0f;
+}
+
 /* Social */
 .socials {
     display: flex;
