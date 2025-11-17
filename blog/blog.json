@@ -1,0 +1,46 @@
+[
+    {
+        "date": "15 listopada 2025",
+        "description": "Analizowaliśmy dokumentację wszystkich urządzeń w CanSacie pod kątem m.in. sposobu komunikacji oraz wysyłanych przez nie pakietów. Ponadto, napisaliśmy wstępną strukturę kodu dla CanSata oraz przygotowujemy się do pierwszej rozmowy z potencjalnym sponsorem."
+    },
+    {
+        "date": "8 listopada 2025",
+        "description": "Napisaliśmy wstępną konfigurację na mikrokontroler. Robimy także progres pod kątem projektu 3D naszego CanSata."
+    },
+    {
+        "date": "1 listopada 2025",
+        "description": "Udało się! Przeszliśmy do następnego etapu konkursu. Gdy tylko się o tym dowiedzieliśmy, od razu zaczęliśmy się przygotowywać do dalszej pracy."
+    },
+    {
+        "date": "25 października 2025",
+        "description": "Dalej czekamy. We wtorek dowiemy się, czy przeszliśmy."
+    },
+    {
+        "date": "18 października 2025",
+        "description": "Skończyliśmy pisać PDR i przedstawiliśmy go naszemu mentorowi — pani Joannie Chęć. Po kilku drobnych poprawkach wysłaliśmy go do organizatorów konkursu. Teraz pozostało nam tylko czekać na wyniki."
+    },
+    {
+        "date": "11 października 2025",
+        "description": "W tym tygodniu zaczęliśmy się zajmować pisaniem naszego pierwszego raportu — PDR. Raport ten podsumowuje nasze dotychczasowe osiągnięcia i przedstawia nasze plany na dalszą część konkursu."
+    },
+    {
+        "date": "4 października 2025",
+        "description": "Braliśmy udział w spotkaniach wprowadzających do konkursu CanSat. Poza tym, doszliśmy do wniosku, że nasze wcześniejsze plany dotyczące misji dodatkowej nie są możliwe do zrealizowania. W związku z tym naszą misją zostanie prezentacja działania technologii INS — lokalizacji z ograniczonym użyciem GPS."
+    },
+    {
+        "date": "27 września 2025",
+        "description": "Rozbudowaliśmy stronę internetową i rozpoczęliśmy działalność na social mediach. W trakcie tego tygodnia pracowaliśmy nad naszą misją dodatkową i zastanawiamy się, czy będziemy w stanie ją przeprowadzić."
+    },
+    {
+        "date": "20 września 2025",
+        "description": "Założyliśmy media społecznościowe naszego zespołu i napisaliśmy naszą stronę internetową. W następnych dniach będziemy przedstawiać na nich postępy w naszych pracach nad projektem."
+    },
+    {
+        "date": "13 września 2025",
+        "description": "Podzieliliśmy się pracą w zespole tak, aby każdy miał swoją rolę. Zaczęliśmy się także zastanawiać nad naszą misją dodatkową."
+    },
+    {
+        "date": "6 września 2025",
+        "description": "Zebraliśmy osoby chętne do wzięcia udziału w CanSacie."
+    }
+]

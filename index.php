@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Volatus</title>
+    <title>TEST</title>
     <link rel="icon" href="img/logoM.svg">
     <link rel="stylesheet" type="text/css" href="styles/styles.css?v=2">
 </head>
@@ -24,15 +24,15 @@
                 <b>O misji</b>
             </a>
             <a href="#link-about" class="tile">
-                <img src="img/team.webp" alt="Zdjęcie Zespołu">
+                <img src="img/team.webp" alt="Zdjęcie zespołu">
                 <b>O zespole</b>
             </a>
             <a href="#link-updates" class="tile">
-                <img src="img/ostatnie-zmiany.png" alt="">
+                <img src="img/ostatnie-zmiany.png" alt="Grafika przedstawiająca projekt">
                 <b>Aktualności</b>
             </a>
             <a href="#link-contact" class="tile">
-                <img src="img/socials3.png" alt="">
+                <img src="img/socials3.png" alt="Grafika przedstawiająca logotypy mediów społecznościowych">
                 <b>Kontakt i social media</b>
             </a>
         </div>
@@ -65,8 +65,8 @@
                 sprawdzi swoją pozycję przy pomocy GPS. Póżniej, już przy pomocy IMU — specjalnego zestawu czujników,
                 będziemy sami obliczać swoją pozycję. Będzie się to jednak wiązało z pewnym niewielkim błędem, który
                 będzie wynikał z ograniczeń IMU, którego będziemy mogli użyć, więc co za tym idzie, zsynchronizujemy
-                swoją pozycję z GPS w połowie lotu. Wszelkie dane zebrane podczas misji będą bądź to wysłane do stacji
-                naziemnej, bądź to zapisane na karcie SD naszego CanSata.
+                swoją pozycję z GPS w połowie lotu. Wszelkie dane zebrane podczas misji będą wysłane do stacji
+                naziemnej i zapisane na karcie SD naszego CanSata.
             </p>
         </div>
         <!-- O zespole -->
@@ -174,13 +174,21 @@
         </div>
         <!-- Ostatnie zmiany -->
         <h2 class="c1" id="link-updates">Aktualności</h2>
-        <div class="panel">
-            <p>
-                Skończyliśmy pisać PDR i przedstawiliśmy go naszemu mentorowi — pani Joannie Chęć. Po kilku drobnych
-                poprawkach wysłaliśmy go. Teraz czekamy tylko na wyniki.
-            </p>
-            <p><a id="wiecej-lk" href="archiwum-aktualnosci/">Więcej…</a></p>
-        </div>
+        <?php
+        $allEvents = json_decode(file_get_contents('blog/blog.json'));
+        $events = array_slice($allEvents, 0, 3);
+        ?>
+        <?php foreach ($events as $event): ?>
+            <div class="panel">
+                <h3>
+                    <?= $event->date; ?>
+                </h3>
+                <p>
+                    <?= $event->description; ?>
+                </p>
+            </div>
+        <?php endforeach; ?>
+        <p><a id="wiecej-lk" href="archiwum-aktualnosci/">Więcej…</a></p>
         <!-- Kontakt -->
         <h2 class="c1" id="link-contact">Gdzie nas spotkać?</h2>
         <div class="panel socials">
