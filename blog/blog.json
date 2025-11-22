@@ -1,5 +1,9 @@
 [
     {
+        "date": "22 listopada 2025",
+        "description": "Na początku tego tygodnia przyszedł do nas CanSat Kit. Jest to zestaw składający się z: dwóch płytek rozwojowych bazujących na ATmedze328p, zawierających port na kartę SD i moduł lora; czujników temperatury i ciśnienia, niezbędnych dla dla misji podstawowej; dwóch płytek prototypowych oraz kilku kabli. W końcu poczyniliśmy również kroki w kierunku pozyskania sponsora — wysłaliśmy już nasz pierwszy list z propozycją współpracy."
+    },
+    {
         "date": "15 listopada 2025",
         "description": "Analizowaliśmy dokumentację wszystkich urządzeń w CanSacie pod kątem m.in. sposobu komunikacji oraz wysyłanych przez nie pakietów. Ponadto, napisaliśmy wstępną strukturę kodu dla CanSata oraz przygotowujemy się do pierwszej rozmowy z potencjalnym sponsorem."
     },
