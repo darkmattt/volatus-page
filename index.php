@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>TEST</title>
+    <title>Volatus</title>
     <link rel="icon" href="img/logoM.svg">
     <link rel="stylesheet" type="text/css" href="styles/styles.css?v=2">
 </head>
@@ -91,20 +91,6 @@
         </div>
         <div class="panel about">
             <div class="about-text">
-                <h3>Maciej Skarbek</h3>
-                <p>Chodzę do klasy 3A i mam 16 lat. Rozszerzam matematykę, informatykę i angielski na poziomie
-                    dwujęzycznym. Interesuję się programowaniem niskopoziomowym, reverse engineeringiem, Linuxem i
-                    brydżem. W wolnych chwilach uczę się arabskiego. Moją rolą jest pisanie oprogramowania, dzięki
-                    któremu nasz satelita zadziała oraz zajmowaniem się komunikacją radiową i stacją naziemną. Wziąłem
-                    udział w tym konkursie, ponieważ interesuje się komunikacją radiową oraz zawsze chciałem napisać kod
-                    na tego typu urządzenie.</p>
-            </div>
-            <div class="about-img">
-                <a href="maciej-skarbek/"><img src="img/maciej.jpg" alt="Maciej Skarbek"></a>
-            </div>
-        </div>
-        <div class="panel about">
-            <div class="about-text">
                 <h3>Filip Matwijczyk</h3>
                 <p>Mam 17 lat i chodzę do klasy 3A. Rozszerzam matematykę, informatykę oraz angielski na poziomie
                     dwujęzycznym. Interesuję się sportami walki oraz montażem filmowym. Moją główną rolą w projekcie
@@ -115,6 +101,20 @@
             </div>
             <div class="about-img">
                 <a href="filip-matwijczyk/"><img src="img/filipek.jpg" alt="Filip Matwijczyk"></a>
+            </div>
+        </div>
+        <div class="panel about">
+            <div class="about-text">
+                <h3>Maciej Skarbek</h3>
+                <p>Chodzę do klasy 3A i mam 16 lat. Rozszerzam matematykę, informatykę i angielski na poziomie
+                    dwujęzycznym. Interesuję się programowaniem niskopoziomowym, reverse engineeringiem, Linuxem i
+                    brydżem. W wolnych chwilach uczę się arabskiego. Moją rolą jest pisanie oprogramowania, dzięki
+                    któremu nasz satelita zadziała oraz zajmowaniem się komunikacją radiową i stacją naziemną. Wziąłem
+                    udział w tym konkursie, ponieważ interesuje się komunikacją radiową oraz zawsze chciałem napisać kod
+                    na tego typu urządzenie.</p>
+            </div>
+            <div class="about-img">
+                <a href="maciej-skarbek/"><img src="img/maciej.jpg" alt="Maciej Skarbek"></a>
             </div>
         </div>
         <div class="panel about">
@@ -135,19 +135,6 @@
         </div>
         <div class="panel about">
             <div class="about-text">
-                <h3>Krzysztof Pisula</h3>
-                <p>Mam 16 lat i uczęszczam do klasy 3A, gdzie rozszerzam matematykę, informatykę oraz angielski na
-                    poziomie dwujęzycznym. Interesuję się programowaniem, modelowaniem 3D i geopolityką. Hobbystycznie
-                    gram w brydża i uczę się języka greckiego. Moją rolą w tym projekcie jest zarządzanie pracą i
-                    szeroko rozumiana grafika komputerowa. Ze względu na charakter projektu daje on duże możliwości
-                    samorozwoju, jak i wdrażania zdobytej wiedzy w życie.</p>
-            </div>
-            <div class="about-img">
-                <a href="krzysztof-pisula/"><img src="img/krzysiu.jpg" alt="Krzysztof Pisula"></a>
-            </div>
-        </div>
-        <div class="panel about">
-            <div class="about-text">
                 <h3>Mateusz Rzepka</h3>
                 <p>Chodzę do klasy 3A i mam 16 lat. Rozszerzam matematykę, informatykę oraz angielski na poziomie
                     dwujęzycznym. Interesuję się programowaniem, pisaniem stron internetowych, matematyką i technologią
@@ -157,6 +144,19 @@
             </div>
             <div class="about-img">
                 <a href="mateusz-rzepka/"><img src="img/mateusz.jpg" alt="Mateusz Rzepka"></a>
+            </div>
+        </div>
+        <div class="panel about">
+            <div class="about-text">
+                <h3>Krzysztof Pisula</h3>
+                <p>Mam 16 lat i uczęszczam do klasy 3A, gdzie rozszerzam matematykę, informatykę oraz angielski na
+                    poziomie dwujęzycznym. Interesuję się programowaniem, modelowaniem 3D i geopolityką. Hobbystycznie
+                    gram w brydża i uczę się języka greckiego. Moją rolą w tym projekcie jest zarządzanie pracą i
+                    szeroko rozumiana grafika komputerowa. Ze względu na charakter projektu daje on duże możliwości
+                    samorozwoju, jak i wdrażania zdobytej wiedzy w życie.</p>
+            </div>
+            <div class="about-img">
+                <a href="krzysztof-pisula/"><img src="img/krzysiu.jpg" alt="Krzysztof Pisula"></a>
             </div>
         </div>
         <div class="panel about">

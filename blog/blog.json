@@ -1,11 +1,19 @@
 [
     {
+        "date": "29 listopada 2025",
+        "description": "Postanowiliśmy o zmianie naszego lidera i wyłoniliśmy go w ostatni poniedziałek poprzez głosowanie — jest nim teraz Filip Matwijczyk. Podjęliśmy decyzje dotyczące zakupu konkretnych modeli komponentów, które wchodzić będą w skład CanSata. Poza tym, rozplanowaliśmy sobie kod odbioru danych z CanSata i ich wizualizaji w stacji bazowej."
+    },
+    {
+        "date": "22 listopada 2025",
+        "description": "Na początku tego tygodnia przyszedł do nas CanSat Kit. Jest to zestaw składający się z: dwóch płytek rozwojowych bazujących na ATmedze328p, zawierających port na kartę SD i moduł lora; czujników temperatury i ciśnienia, niezbędnych dla dla misji podstawowej; dwóch płytek prototypowych oraz kilku kabli. W końcu poczyniliśmy również kroki w kierunku pozyskania sponsora — wysłaliśmy już nasz pierwszy list z propozycją współpracy."
+    },
+    {
         "date": "15 listopada 2025",
         "description": "Analizowaliśmy dokumentację wszystkich urządzeń w CanSacie pod kątem m.in. sposobu komunikacji oraz wysyłanych przez nie pakietów. Ponadto, napisaliśmy wstępną strukturę kodu dla CanSata oraz przygotowujemy się do pierwszej rozmowy z potencjalnym sponsorem."
     },
     {
         "date": "8 listopada 2025",
-        "description": "Napisaliśmy wstępną konfigurację na mikrokontroler. Robimy także progres pod kątem projektu 3D naszego CanSata."
+        "description": "Napisaliśmy wstępną konfigurację na mikrokontroler. Robimy także postęp pod kątem projektu 3D naszego CanSata."
     },
     {
         "date": "1 listopada 2025",
