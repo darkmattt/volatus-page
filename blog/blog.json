@@ -1,5 +1,9 @@
 [
     {
+        "date": "6 grudnia 2025",
+        "description": "W tym tygodniu przyszły do nas komponenty, które kupiliśmy do CanSata. Są to: cyfrowy barometr o wysokiej dokładności pozwalający nam wyznaczać wysokość z precyzją do ok. 0,6 m; analogowy czujnik temperatury; moduł GPS zapewniający dokładność do 3 m i odświeżanie do 10 Hz; programator/debugger do STM32 i STM8. Więcej można o nich przeczytać <a class=\"p-link\" href=\"https://volatus.pl#link-hardware\">tutaj</a>."
+    },
+    {
         "date": "29 listopada 2025",
         "description": "Postanowiliśmy o zmianie naszego lidera i wyłoniliśmy go w ostatni poniedziałek poprzez głosowanie — jest nim teraz Filip Matwijczyk. Podjęliśmy decyzje dotyczące zakupu konkretnych modeli komponentów, które wchodzić będą w skład CanSata. Poza tym, rozplanowaliśmy sobie kod odbioru danych z CanSata i ich wizualizaji w stacji bazowej."
     },

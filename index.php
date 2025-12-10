@@ -11,7 +11,7 @@
 <body>
     <!-- Pasek -->
     <div id="pasek">
-        <a href="https://www.volatus.pl">
+        <a href="https://volatus.pl">
             <img src="img/logo.svg" alt="Logo">
         </a>
     </div>
@@ -27,8 +27,12 @@
                 <img src="img/team.webp" alt="Zdjęcie zespołu">
                 <b>O zespole</b>
             </a>
+            <a href="#link-hardware" class="tile">
+                <img src="img/technicznie.png" alt="Grafika przedstawiająca projekt">
+                <b>Technicznie o CanSacie</b>
+            </a>
             <a href="#link-updates" class="tile">
-                <img src="img/ostatnie-zmiany.png" alt="Grafika przedstawiająca projekt">
+                <img src="img/volatus-setup-cut.jpg" alt="Zdjęcie stanowiska pracy Macieja">
                 <b>Aktualności</b>
             </a>
             <a href="#link-contact" class="tile">
@@ -98,6 +102,7 @@
                     CanSata. Biorę udział w tym konkursie, bo chcę, aby był on dla mnie okazją dla rozwoju osobistego
                     oraz swojego rodzaju wyzwaniem, które wyciągnie mnie spoza własnej strefy komfortu i wzbogaci o nowe
                     doświadczenia oraz wspólne wspomnienia z innymi członkami drużyny.</p>
+                <p><a class="p-link" href="filip-matwijczyk/">Więcej…</a></p>
             </div>
             <div class="about-img">
                 <a href="filip-matwijczyk/"><img src="img/filipek.jpg" alt="Filip Matwijczyk"></a>
@@ -112,6 +117,7 @@
                     któremu nasz satelita zadziała oraz zajmowaniem się komunikacją radiową i stacją naziemną. Wziąłem
                     udział w tym konkursie, ponieważ interesuje się komunikacją radiową oraz zawsze chciałem napisać kod
                     na tego typu urządzenie.</p>
+                <p><a class="p-link" href="maciej-skarbek/">Więcej…</a></p>
             </div>
             <div class="about-img">
                 <a href="maciej-skarbek/"><img src="img/maciej.jpg" alt="Maciej Skarbek"></a>
@@ -128,6 +134,7 @@
                     maszyn i programowania; jest to też dla mnie szansa, by spróbować czegoś nowego, sprawdzic swoje
                     możliwości, a także możliwość poznania nowych ludzi i rozwijanie umiejętności pracy w zespole i
                     kreatywnego myślenia.</p>
+                <p><a class="p-link" href="magdalena-baran/">Więcej…</a></p>
             </div>
             <div class="about-img">
                 <a href="magdalena-baran/"><img src="img/magda.jpg" alt="Magdalena Baran"></a>
@@ -141,6 +148,7 @@
                     kosmiczną. W czasie wolnym gram w brydża i uczę się języka łacińskiego. Biorę udział w tym
                     konkursie, ponieważ chcę przetestować swoje siły w zadaniu, które łączy naukę z pasją do technologii
                     i sprawdzić, jak poradzę sobie w obliczu czekających mnie wyzwań.</p>
+                <p><a class="p-link" href="mateusz-rzepka/">Więcej…</a></p>
             </div>
             <div class="about-img">
                 <a href="mateusz-rzepka/"><img src="img/mateusz.jpg" alt="Mateusz Rzepka"></a>
@@ -154,6 +162,7 @@
                     gram w brydża i uczę się języka greckiego. Moją rolą w tym projekcie jest zarządzanie pracą i
                     szeroko rozumiana grafika komputerowa. Ze względu na charakter projektu daje on duże możliwości
                     samorozwoju, jak i wdrażania zdobytej wiedzy w życie.</p>
+                <p><a class="p-link" href="krzysztof-pisula/">Więcej…</a></p>
             </div>
             <div class="about-img">
                 <a href="krzysztof-pisula/"><img src="img/krzysiu.jpg" alt="Krzysztof Pisula"></a>
@@ -167,10 +176,31 @@
                     zespole zajmuję się całym hardware'em i elektroniką. Biorę udział w tym konkursie, ponieważ
                     uwielbiam projekty techniczne takie jak ten, i myślę, że jest to idealna okazja na poszerzenie moich
                     umiejętności.</p>
+                <p><a class="p-link" href="jan-krol/">Więcej…</a></p>
             </div>
             <div class="about-img">
                 <a href="jan-krol/"><img src="img/janek.jpg" alt="Jan Król"></a>
             </div>
+        </div>
+        <!-- Hardware -->
+        <h2 class="c1" id="link-hardware">Technicznie o CanSacie</h2>
+        <div class="panel">
+            <p>
+                BMP388 to cyfrowy barometr mierzący ciśnienie 300–1250 hPa z bardzo wysoką dokładnością, komunikujący
+                się przez I2C lub SPI. Pozwala wyznaczać wysokość z precyzją do ok. 0,6 m, dlatego świetnie nadaje się
+                do naszej misji.
+            </p>
+            <p>
+                TMP235 to analogowy czujnik temperatury o liniowym wyjściu napięciowym, idealny do mikrokontrolerów z
+                ADC. Jest stabilny, dokładny i nie wymaga żadnej konfiguracji poza odczytem napięcia.
+            </p>
+            <p>
+                Moduł GPS z USB oparty na MTK3333, który zapewnia dokładność aż do 3 m i odświeżanie do 10 Hz.
+            </p>
+            <p>
+                Waveschare to programator/debugger do STM32 i STM8 obsługujący protokoły SWD oraz SWIM. Jest zgodny z
+                oryginalnym ST-LINK i działa stabilnie w popularnych środowiskach jak STM32CubeIDE czy Keil.
+            </p>
         </div>
         <!-- Ostatnie zmiany -->
         <h2 class="c1" id="link-updates">Aktualności</h2>
@@ -188,7 +218,7 @@
                 </p>
             </div>
         <?php endforeach; ?>
-        <p><a id="wiecej-lk" href="archiwum-aktualnosci/">Więcej…</a></p>
+        <p><a class="p-link" href="archiwum-aktualnosci/">Więcej…</a></p>
         <!-- Kontakt -->
         <h2 class="c1" id="link-contact">Gdzie nas spotkać?</h2>
         <div class="panel socials">

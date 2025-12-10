@@ -191,12 +191,12 @@ li {
     }
 }
 
-#wiecej-lk {
+.p-link {
     text-decoration: none;
     color: #0ff;
 }
 
-#wiecej-lk:hover {
+.p-link:hover {
     color: #f0f;
 }
 

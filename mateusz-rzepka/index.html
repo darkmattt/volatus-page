@@ -11,7 +11,7 @@
 <body>
     <!-- Pasek -->
     <div id="pasek">
-        <a href="https://www.volatus.pl">
+        <a href="https://volatus.pl">
             <img src="../img/logo.svg" alt="Logo">
         </a>
     </div>
