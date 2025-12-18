@@ -1,5 +1,9 @@
 [
     {
+        "date": "13 grudnia 2025",
+        "description": "Uszyliśmy nasz pierwszy spadochron. Materiał jaki użyliśmy to ripstop nylon 70D. Wybraliśmy go ze względu na jego dużą porowatość — dzięki temu, po otworzeniu się spadochronu, będą występowały mniejsze wibracje CanSata. Ponadto napisaliśmy kod służący do testu różnych czujników takich jak termometr, barometr, moduł GPS czy radio."
+    },
+    {
         "date": "6 grudnia 2025",
         "description": "W tym tygodniu przyszły do nas komponenty, które kupiliśmy do CanSata. Są to: cyfrowy barometr o wysokiej dokładności pozwalający nam wyznaczać wysokość z precyzją do ok. 0,6 m; analogowy czujnik temperatury; moduł GPS zapewniający dokładność do 3 m i odświeżanie do 10 Hz; programator/debugger do STM32 i STM8. Więcej można o nich przeczytać <a class=\"p-link\" href=\"https://volatus.pl#link-hardware\">tutaj</a>."
     },
