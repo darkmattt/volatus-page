@@ -185,22 +185,37 @@
         <!-- Hardware -->
         <h2 class="c1" id="link-hardware">Technicznie o CanSacie</h2>
         <div class="panel">
-            <p>
-                BMP388 to cyfrowy barometr mierzący ciśnienie 300–1250 hPa z bardzo wysoką dokładnością, komunikujący
-                się przez I2C lub SPI. Pozwala wyznaczać wysokość z precyzją do ok. 0,6 m, dlatego świetnie nadaje się
-                do naszej misji.
-            </p>
-            <p>
-                TMP235 to analogowy czujnik temperatury o liniowym wyjściu napięciowym, idealny do mikrokontrolerów z
-                ADC. Jest stabilny, dokładny i nie wymaga żadnej konfiguracji poza odczytem napięcia.
-            </p>
-            <p>
-                Moduł GPS z USB oparty na MTK3333, który zapewnia dokładność aż do 3 m i odświeżanie do 10 Hz.
-            </p>
-            <p>
-                Waveschare to programator/debugger do STM32 i STM8 obsługujący protokoły SWD oraz SWIM. Jest zgodny z
-                oryginalnym ST-LINK i działa stabilnie w popularnych środowiskach jak STM32CubeIDE czy Keil.
-            </p>
+            <ul>
+                <li>
+                    BMP388 to cyfrowy barometr mierzący ciśnienie 300–1250&nbsp;hPa z bardzo wysoką dokładnością,
+                    komunikujący się przez I2C lub SPI. Pozwala wyznaczać wysokość z precyzją do ok. 0,6&nbsp;m, dlatego
+                    świetnie nadaje się do naszej misji.
+                </li>
+                <li>
+                    TMP235 to analogowy czujnik temperatury o liniowym wyjściu napięciowym, idealny do mikrokontrolerów
+                    z ADC. Jest stabilny, dokładny i nie wymaga żadnej konfiguracji poza odczytem napięcia.
+                </li>
+                <li>
+                    Moduł GPS z USB oparty na MTK3333, który zapewnia dokładność aż do 3&nbsp;m i odświeżanie do
+                    10&nbsp;Hz.
+                </li>
+                <li>
+                    Waveschare to programator/debugger do STM32 i STM8 obsługujący protokoły SWD oraz SWIM. Jest zgodny
+                    z oryginalnym ST-LINK i działa stabilnie w popularnych środowiskach jak STM32CubeIDE czy Keil.
+                </li>
+                <li>
+                    MTI-3-5A-T to nasza IMU, czyli jednostka do nawigacji inercyjnej. Ma ona 3 osie żyroskopów, 3 osie
+                    akcelerometrów oraz 3 osie magnetometrów. Żyroskopy pracują w zakresie do ±2000&nbsp;°/s, więc będą
+                    one poprawnie mierzyć obrót CanSata podczas jego opadania na spadochronie, a akcelerometry
+                    rejestrują dane aż do ±16&nbsp;g, co stanowi więcej niż 8&nbsp;g, które możemy napotkać w trakcie
+                    startu rakiety.
+                </li>
+                <li>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam pariatur ducimus inventore iusto ex
+                    rem. Sit voluptates unde perspiciatis nam aperiam, expedita suscipit voluptatem consequuntur a
+                    reprehenderit, atque incidunt corrupti!
+                </li>
+            </ul>
         </div>
         <!-- Ostatnie zmiany -->
         <h2 class="c1" id="link-updates">Aktualności</h2>

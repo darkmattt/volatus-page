@@ -1,5 +1,9 @@
 [
     {
+        "date": "20 grudnia 2025",
+        "description": "W trakcie tego tygodnia przeprowadziliśmy kilka testów spadochronu. Okazał się on być zbyt mały, przez co nie hamował opadania CanSata — będziemy musieli zatem uszyć nowy."
+    },
+    {
         "date": "13 grudnia 2025",
         "description": "Uszyliśmy nasz pierwszy spadochron. Materiał jaki użyliśmy to ripstop nylon 70D. Wybraliśmy go ze względu na jego dużą porowatość — dzięki temu, po otworzeniu się spadochronu, będą występowały mniejsze wibracje CanSata. Ponadto napisaliśmy kod służący do testu różnych czujników takich jak termometr, barometr, moduł GPS czy radio."
     },
