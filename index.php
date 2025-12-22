@@ -211,9 +211,10 @@
                     startu rakiety.
                 </li>
                 <li>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam pariatur ducimus inventore iusto ex
-                    rem. Sit voluptates unde perspiciatis nam aperiam, expedita suscipit voluptatem consequuntur a
-                    reprehenderit, atque incidunt corrupti!
+                    STM32 Black Pill to niewielka, tania płytka rozwojowa oparta na mikrokontrolerze STM32. Oferuje
+                    256&nbsp;KB Flash, 64&nbsp;KB RAM, zasilanie 3,3&nbsp;V, oraz bogaty zestaw peryferiów: GPIO, ADC,
+                    I2C, SPI, UART, USB OTG. Programowanie i debugowanie odbywa się przez SWD z użyciem programatora
+                    ST-Link, co czyni ją dobrą alternatywą dla Arduino w bardziej zaawansowanych projektach.
                 </li>
             </ul>
         </div>
@@ -263,7 +264,7 @@
         const adresEmail = document.getElementById("email");
         const przyciskEmail = document.getElementById("przyciskEmail");
         const tooltip = document.getElementById("tooltip");
-        const mail = "volatus.cs@protonmail.com";
+        const mail = "volatus@lobrzozow.pl";
         przyciskEmail.addEventListener("click", (e) => {
             const currentText = adresEmail.textContent;
             if (currentText === mail) {
