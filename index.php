@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <title>Volatus</title>
     <link rel="icon" href="img/logoM.svg">
-    <link rel="stylesheet" type="text/css" href="styles/styles.css?v=2">
+    <link rel="stylesheet" type="text/css" href="styles/styles.css?v=3">
 </head>
 
 <body>
@@ -18,7 +18,11 @@
 
     <div id="strona">
         <!-- Menu kafelkowe -->
-        <div class="grid">
+        <div class="flex">
+            <a href="#link-sponsors" class="tile">
+                <img src="img/sponsoring.png" alt="Grafika przedstawiająca sponsoring">
+                <b>Nasi sponsorzy</b>
+            </a>
             <a href="#link-mission" class="tile">
                 <img src="img/o-misji.png" alt="Zdjęcie CanSata">
                 <b>O misji</b>
@@ -41,13 +45,46 @@
             </a>
         </div>
         <!-- Sponsorzy -->
-        <!-- <h2 class="c1">Sponsorzy</h2>
-        <div class="grid">
-            <a href="" class="tile">
-                <img alt="jakies zdj">
-                <b>sponsor1</b>
-            </a>
-        </div> -->
+        <h2 id="link-sponsors" class="c1">Nasi sponsorzy</h2>
+        <div class="flex">
+            <button onclick="sponsor1.show()" class="tile sponsor-tile">
+                <img src="img/instalator-logo-bg.png" alt="logo firmy">
+                <b>FHU INSTALATOR Sp. j.</b>
+            </button>
+            <button onclick="sponsor2.show()" class="tile sponsor-tile">
+                <img src="img/zib-logo.png" alt="logo firmy">
+                <b>ZIB Sp. j.</b>
+            </button>
+            <button onclick="sponsor3.show()" class="tile sponsor-tile">
+                <img src="img/stalzbyt-logo.png" alt="logo firmy">
+                <b>FH STALZBYT PLUS Grzegorz Zając</b>
+            </button>
+        </div>
+        <dialog id="sponsor1" class="sponsor-dialog">
+            <div class="panel"><img src="img/instalator-logo-bg.png" alt="logo firmy"></div>
+            <h2 class="c1">FHU INSTALATOR Sp. j.</h2>
+            <h3><a href="https://www.instalator-brzozow.pl/" class="p-link">Strona internetowa</a></h3>
+            <form method="dialog">
+                <button>Wyjdź</button>
+            </form>
+        </dialog>
+        <dialog id="sponsor2" class="sponsor-dialog">
+            <div class="panel"><img src="img/zib-logo.png" alt="logo firmy"></div>
+            <h2 class="c1">ZIB Sp. j.</h2>
+            <h3><a href="https://zib24.pl/" class="p-link">Strona internetowa</a></h3>
+            <form method="dialog">
+                <button>Wyjdź</button>
+            </form>
+        </dialog>
+        <dialog id="sponsor3" class="sponsor-dialog">
+            <div class="panel"><img src="img/stalzbyt-logo.png" alt="logo firmy"></div>
+            <h2 class="c1">FH STALZBYT PLUS Grzegorz Zając</h2>
+            <h3><a href="https://www.facebook.com/p/Stalzbyt-Plus-100058717878633/" class="p-link">Strona na
+                    Facebooku</a></h3>
+            <form method="dialog">
+                <button>Wyjdź</button>
+            </form>
+        </dialog>
         <!-- O misji -->
         <h2 class="c1" id="link-mission">O misji</h2>
         <div class="panel">
