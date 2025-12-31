@@ -156,6 +156,7 @@ li {
     flex: 0 0 15%;
     flex-direction: column;
     justify-content: center;
+    font-size: 36px;
 }
 
 .sponsor-dialog {
@@ -441,6 +442,9 @@ h2.c7 {
         height: 300px;
     }
 
+    .sponsor-tile {
+        font-size: 20px;
+    }
 
     .sponsor-dialog {
         width: 60%;
