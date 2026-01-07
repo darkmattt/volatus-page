@@ -1,7 +1,7 @@
 [
     {
         "date": "27 grudnia 2025",
-        "description": "W zeszłym tygodniu przeprowadziliśmy testy spadochronu z pomocą OSP w Bliznem. Analizując nagrania oszacowaliśmy prędkość CanSata na około 12 m/s. Udało nam się także znaleźć naszego pierwszego sponsora — FHU INSTALATOR Sp. j. Poza tym, opracowaliśmy schemat ideowy CanSata oraz ukończyliśmy jego model 3D."
+        "description": "W zeszłym tygodniu przeprowadziliśmy testy spadochronu z pomocą OSP w Bliznem. Analizując nagrania oszacowaliśmy prędkość CanSata na około 12&nbsp;m/s. Udało nam się także znaleźć naszego pierwszego sponsora — FHU INSTALATOR Sp. j. Poza tym, opracowaliśmy schemat ideowy CanSata oraz ukończyliśmy jego model 3D."
     },
     {
         "date": "20 grudnia 2025",
@@ -13,7 +13,7 @@
     },
     {
         "date": "6 grudnia 2025",
-        "description": "W tym tygodniu przyszły do nas komponenty, które kupiliśmy do CanSata. Są to: cyfrowy barometr o wysokiej dokładności pozwalający nam wyznaczać wysokość z precyzją do ok. 0,6 m; analogowy czujnik temperatury; moduł GPS zapewniający dokładność do 3 m i odświeżanie do 10 Hz; programator/debugger do STM32 i STM8. Więcej można o nich przeczytać <a class=\"p-link\" href=\"https://volatus.pl#link-hardware\">tutaj</a>."
+        "description": "W tym tygodniu przyszły do nas komponenty, które kupiliśmy do CanSata. Są to: cyfrowy barometr o wysokiej dokładności pozwalający nam wyznaczać wysokość z precyzją do ok. 0,6&nbsp;m; analogowy czujnik temperatury; moduł GPS zapewniający dokładność do 3&nbsp;m i odświeżanie do 10&nbsp;Hz; programator/debugger do STM32 i STM8. Więcej można o nich przeczytać <a class=\"p-link\" href=\"https://volatus.pl#link-hardware\">tutaj</a>."
     },
     {
         "date": "29 listopada 2025",

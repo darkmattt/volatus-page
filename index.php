@@ -40,50 +40,70 @@
                 <b>Aktualności</b>
             </a>
             <a href="#link-contact" class="tile">
-                <img src="img/socials3.png" alt="Grafika przedstawiająca logotypy mediów społecznościowych">
+                <img src="img/socials4.png" alt="Grafika przedstawiająca logotypy mediów społecznościowych">
                 <b>Kontakt i social media</b>
             </a>
         </div>
         <!-- Sponsorzy -->
         <h2 id="link-sponsors" class="c1">Nasi sponsorzy</h2>
         <div class="flex">
-            <button onclick="sponsor1.show()" class="tile sponsor-tile">
-                <img src="img/instalator-logo-bg.png" alt="logo firmy">
+            <button onclick="sponsor1.showModal()" class="tile sponsor-tile">
+                <div class="panel"><img src="img/instalator-logo-alfa.png" alt="logo firmy"></div>
                 <b>FHU INSTALATOR Sp. j.</b>
             </button>
-            <button onclick="sponsor2.show()" class="tile sponsor-tile">
-                <img src="img/zib-logo.png" alt="logo firmy">
+            <button onclick="sponsor2.showModal()" class="tile sponsor-tile">
+                <div class="panel"><img src="img/zib-logo-cut.png" alt="logo firmy"></div>
                 <b>ZIB Sp. j.</b>
             </button>
-            <button onclick="sponsor3.show()" class="tile sponsor-tile">
-                <img src="img/stalzbyt-logo.png" alt="logo firmy">
+            <button onclick="sponsor3.showModal()" class="tile sponsor-tile">
+                <div class="panel"><img src="img/stalzbyt-logo-cut.png" alt="logo firmy"></div>
                 <b>FH STALZBYT PLUS Grzegorz Zając</b>
+            </button>
+            <button onclick="sponsor4.showModal()" class="tile sponsor-tile">
+                <div class="panel"><img src="img/elan-logo.png" alt="logo firmy"></div>
+                <b>Elan Sp. z o. o. Sp. K</b>
             </button>
         </div>
         <dialog id="sponsor1" class="sponsor-dialog">
-            <div class="panel"><img src="img/instalator-logo-bg.png" alt="logo firmy"></div>
-            <h2 class="c1">FHU INSTALATOR Sp. j.</h2>
-            <h3><a href="https://www.instalator-brzozow.pl/" class="p-link">Strona internetowa</a></h3>
-            <form method="dialog">
-                <button>Wyjdź</button>
-            </form>
+            <div class="sd-flex">
+                <div class="panel"><img src="img/instalator-logo-alfa.png" alt="logo firmy"></div>
+                <h2 class="c1">FHU INSTALATOR Sp. j.</h2>
+                <h3><a href="https://www.instalator-brzozow.pl/" class="p-link">Strona internetowa</a></h3>
+                <form method="dialog">
+                    <button>Wyjdź</button>
+                </form>
+            </div>
         </dialog>
         <dialog id="sponsor2" class="sponsor-dialog">
-            <div class="panel"><img src="img/zib-logo.png" alt="logo firmy"></div>
-            <h2 class="c1">ZIB Sp. j.</h2>
-            <h3><a href="https://zib24.pl/" class="p-link">Strona internetowa</a></h3>
-            <form method="dialog">
-                <button>Wyjdź</button>
-            </form>
+            <div class="sd-flex">
+                <div class="panel"><img src="img/zib-logo-cut.png" alt="logo firmy"></div>
+                <h2 class="c1">ZIB Sp. j.</h2>
+                <h3><a href="https://zib24.pl/" class="p-link">Strona internetowa</a></h3>
+                <form method="dialog">
+                    <button>Wyjdź</button>
+                </form>
+            </div>
         </dialog>
         <dialog id="sponsor3" class="sponsor-dialog">
-            <div class="panel"><img src="img/stalzbyt-logo.png" alt="logo firmy"></div>
-            <h2 class="c1">FH STALZBYT PLUS Grzegorz Zając</h2>
-            <h3><a href="https://www.facebook.com/p/Stalzbyt-Plus-100058717878633/" class="p-link">Strona na
-                    Facebooku</a></h3>
-            <form method="dialog">
-                <button>Wyjdź</button>
-            </form>
+            <div class="sd-flex">
+                <div class="panel"><img src="img/stalzbyt-logo-cut.png" alt="logo firmy"></div>
+                <h2 class="c1">FH STALZBYT PLUS Grzegorz Zając</h2>
+                <h3><a href="https://www.facebook.com/p/Stalzbyt-Plus-100058717878633/" class="p-link">Strona na
+                        Facebooku</a></h3>
+                <form method="dialog">
+                    <button>Wyjdź</button>
+                </form>
+            </div>
+        </dialog>
+        <dialog id="sponsor4" class="sponsor-dialog">
+            <div class="sd-flex">
+                <div class="panel"><img src="img/elan-logo.png" alt="logo firmy"></div>
+                <h2 class="c1">Elan Sp. z o. o. Sp. K</h2>
+                <h3><a href="https://elan.com.pl/" class="p-link">Strona internetowa</a></h3>
+                <form method="dialog">
+                    <button>Wyjdź</button>
+                </form>
+            </div>
         </dialog>
         <!-- O misji -->
         <h2 class="c1" id="link-mission">O misji</h2>
@@ -276,7 +296,7 @@
         <h2 class="c1" id="link-contact">Gdzie nas spotkać?</h2>
         <div class="panel socials">
             <button class="social" id="przyciskEmail">
-                <img src="img/mail.svg" alt="Protonmail"><span id="email">E-mail</span>
+                <img src="img/mail.png" alt="Protonmail"><span id="email">E-mail</span>
                 <span id="tooltip">Skopiowano</span>
             </button>
             <a class="social" href="https://www.tiktok.com/@volatuscs?_t=ZN-8zajjHHh5mA&_r=1">
