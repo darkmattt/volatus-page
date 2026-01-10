@@ -48,26 +48,30 @@
         <h2 id="link-sponsors" class="c1">Nasi sponsorzy</h2>
         <div class="flex">
             <button onclick="sponsor1.showModal()" class="tile sponsor-tile">
-                <div class="panel"><img src="img/instalator-logo-alfa.png" alt="logo firmy"></div>
-                <b>FHU INSTALATOR Sp. j.</b>
+                <div class="panel"><img src="img/sponsor/instalator.png" alt="logo firmy"></div>
+                <b>Instalator Sp. j.</b>
             </button>
             <button onclick="sponsor2.showModal()" class="tile sponsor-tile">
-                <div class="panel"><img src="img/zib-logo-cut.png" alt="logo firmy"></div>
+                <div class="panel"><img src="img/sponsor/zib.png" alt="logo firmy"></div>
                 <b>ZIB Sp. j.</b>
             </button>
             <button onclick="sponsor3.showModal()" class="tile sponsor-tile">
-                <div class="panel"><img src="img/stalzbyt-logo-cut.png" alt="logo firmy"></div>
-                <b>FH STALZBYT PLUS Grzegorz Zając</b>
+                <div class="panel"><img src="img/sponsor/stalzbyt.png" alt="logo firmy"></div>
+                <b>Stalzbyt Plus</b>
             </button>
             <button onclick="sponsor4.showModal()" class="tile sponsor-tile">
-                <div class="panel"><img src="img/elan-logo.png" alt="logo firmy"></div>
-                <b>Elan Sp. z o. o. Sp. K</b>
+                <div class="panel"><img src="img/sponsor/elan.png" alt="logo firmy"></div>
+                <b>Elan Sp. z o.o. Sp.k</b>
+            </button>
+            <button onclick="sponsor5.showModal()" class="tile sponsor-tile">
+                <div class="panel"><img src="img/sponsor/mrowka.png" alt="logo firmy"></div>
+                <b>Eleo-Budmax Mrówka Brzozów</b>
             </button>
         </div>
         <dialog id="sponsor1" class="sponsor-dialog">
             <div class="sd-flex">
-                <div class="panel"><img src="img/instalator-logo-alfa.png" alt="logo firmy"></div>
-                <h2 class="c1">FHU INSTALATOR Sp. j.</h2>
+                <div class="panel"><img src="img/sponsor/instalator.png" alt="logo firmy"></div>
+                <h2 class="c1">Instalator Sp. j.</h2>
                 <h3><a href="https://www.instalator-brzozow.pl/" class="p-link">Strona internetowa</a></h3>
                 <form method="dialog">
                     <button>Wyjdź</button>
@@ -76,7 +80,7 @@
         </dialog>
         <dialog id="sponsor2" class="sponsor-dialog">
             <div class="sd-flex">
-                <div class="panel"><img src="img/zib-logo-cut.png" alt="logo firmy"></div>
+                <div class="panel"><img src="img/sponsor/zib.png" alt="logo firmy"></div>
                 <h2 class="c1">ZIB Sp. j.</h2>
                 <h3><a href="https://zib24.pl/" class="p-link">Strona internetowa</a></h3>
                 <form method="dialog">
@@ -86,8 +90,8 @@
         </dialog>
         <dialog id="sponsor3" class="sponsor-dialog">
             <div class="sd-flex">
-                <div class="panel"><img src="img/stalzbyt-logo-cut.png" alt="logo firmy"></div>
-                <h2 class="c1">FH STALZBYT PLUS Grzegorz Zając</h2>
+                <div class="panel"><img src="img/sponsor/stalzbyt.png" alt="logo firmy"></div>
+                <h2 class="c1">Stalzbyt Plus</h2>
                 <h3><a href="https://www.facebook.com/p/Stalzbyt-Plus-100058717878633/" class="p-link">Strona na
                         Facebooku</a></h3>
                 <form method="dialog">
@@ -97,9 +101,19 @@
         </dialog>
         <dialog id="sponsor4" class="sponsor-dialog">
             <div class="sd-flex">
-                <div class="panel"><img src="img/elan-logo.png" alt="logo firmy"></div>
-                <h2 class="c1">Elan Sp. z o. o. Sp. K</h2>
+                <div class="panel"><img src="img/sponsor/elan.png" alt="logo firmy"></div>
+                <h2 class="c1">Elan Sp. z o.o. Sp.k</h2>
                 <h3><a href="https://elan.com.pl/" class="p-link">Strona internetowa</a></h3>
+                <form method="dialog">
+                    <button>Wyjdź</button>
+                </form>
+            </div>
+        </dialog>
+        <dialog id="sponsor5" class="sponsor-dialog">
+            <div class="sd-flex">
+                <div class="panel"><img src="img/sponsor/mrowka.png" alt="logo firmy"></div>
+                <h2 class="c1">Eleo-Budmax Mrówka Brzozów</h2>
+                <h3><a href="https://mrowkabrzozow.pl/" class="p-link">Strona internetowa</a></h3>
                 <form method="dialog">
                     <button>Wyjdź</button>
                 </form>
@@ -242,6 +256,7 @@
         <!-- Hardware -->
         <h2 class="c1" id="link-hardware">Technicznie o CanSacie</h2>
         <div class="panel">
+            <h3>Hardware</h3>
             <ul>
                 <li>
                     BMP388 to cyfrowy barometr mierzący ciśnienie 300–1250&nbsp;hPa z bardzo wysoką dokładnością,
@@ -274,6 +289,27 @@
                     ST-Link, co czyni ją dobrą alternatywą dla Arduino w bardziej zaawansowanych projektach.
                 </li>
             </ul>
+        </div>
+        <div class="panel">
+            <h3>Software</h3>
+            <p>
+                Oprogramowanie samego CanSata zostało napisane z skupieniem na niezawodności. Oparte jest na platformie
+                STM32 i bibliotece HAL (HAL został użyty głównie ze względu na oszczędność czasu — nie ma wtedy potrzeby
+                czytania <i>reference manual</i> i <i>portability</i> przy ewentualnej zmianie mikrokontrolera),
+                wykorzystuje mechanizm <i>Windowed Watchdog</i> obserwujący <i>main loop</i>. W celu zwiększenia
+                stabilności oprogramowania, kod źródłowy mikrokontrolera został napisany zgodnie z rygorystycznym
+                standardem NASA <i>„The Power of 10 Rules”</i> (stosowanie się do tych zasad nie będzie proste, jednakże
+                będziemy mieli tylko jedną okazję na lot, więc nie możemy sobie pozwolić, aby misja zawiodła ze względu
+                na kod), stosowanym w systemach klasy <i>safety-critical</i>.
+            </p>
+            <p>
+                Warstwa naziemna realizuje komunikację w architekturze pośredniej: mikrokontroler stacji bazowej
+                będzie dokonywał enkapsulacji ramek radiowych algorytmem COBS (wybór ten był podyktowany popularnością
+                tego wyboru w innych tego typu projektach), przekazując strumień danych po UART do aplikacji działającej
+                na standardowym PC napisanej w języku Python z biblioteką <i>threading</i>. Rozwiązanie to łączy
+                wydajność niskopoziomowego przetwarzania z elastycznością nowoczesnego interfejsu użytkownika, oferując
+                wizualizację parametrów w czasie rzeczywistym, obsługę komend oraz redundantną rejestrację danych.
+            </p>
         </div>
         <!-- Ostatnie zmiany -->
         <h2 class="c1" id="link-updates">Aktualności</h2>
