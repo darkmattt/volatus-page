@@ -152,7 +152,7 @@ li {
 }
 
 .sponsor-tile {
-    flex: 0 0 34%;
+    /* flex: 0 0 34%; */
     font-size: 36px;
     display: flex;
     justify-content: flex-start;
