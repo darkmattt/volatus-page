@@ -67,6 +67,10 @@
                 <div class="panel"><img src="img/sponsor/mrowka.png" alt="logo firmy"></div>
                 <b>Eleo-Budmax Mrówka Brzozów</b>
             </button>
+            <button onclick="sponsor6.showModal()" class="tile sponsor-tile">
+                <div class="panel"><img src="img/sponsor/powiat-narrow.png" alt="logo firmy"></div>
+                <b>Starostwo powiatowe w Brzozowie</b>
+            </button>
         </div>
         <dialog id="sponsor1" class="sponsor-dialog">
             <div class="sd-flex">
@@ -114,6 +118,19 @@
                 <div class="panel"><img src="img/sponsor/mrowka.png" alt="logo firmy"></div>
                 <h2 class="c1">Eleo-Budmax Mrówka Brzozów</h2>
                 <h3><a href="https://mrowkabrzozow.pl/" class="p-link">Strona internetowa</a></h3>
+                <form method="dialog">
+                    <button>Wyjdź</button>
+                </form>
+            </div>
+        </dialog>
+        <dialog id="sponsor6" class="sponsor-dialog">
+            <div class="sd-flex">
+                <div class="panel">
+                    <img class="narrow-img" src="img/sponsor/powiat-narrow.png" alt="logo firmy">
+                    <img class="wide-img" src="img/sponsor/powiat-wide.png" alt="logo firmy">
+                </div>
+                <h2 class="c1">Starostwo powiatowe w Brzozowie</h2>
+                <h3><a href="https://powiatbrzozow.pl/starostwo/" class="p-link">Strona internetowa</a></h3>
                 <form method="dialog">
                     <button>Wyjdź</button>
                 </form>

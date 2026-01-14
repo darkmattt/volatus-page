@@ -1,11 +1,15 @@
 [
     {
+        "date": "10 stycznia 2026",
+        "description": "Dokonaliśmy kilku poprawek spadochronu, teraz będziemy starać się go przetestować. Przeprowadziliśmy także dokładniejszy test barometru. Ponadto, zamówiliśmy materiały promocyjne — koszulki czy długopisy z naszym logiem. Dziękujemy za wsparcie nowym sponsorom: <i>Eleo-Budmax Mrówka Brzozów</i> oraz <i>Starostwo powiatowe w Brzozowie</i>."
+    },
+    {
         "date": "3 stycznia 2026",
-        "description": "Na początku tego tygodnia przeprowadziliśmy testy kilku komponentów: termometru, barometru oraz radia. Testy przebiegły pomyślnie i nie tylko byliśmy w stanie wgrać na płytkę kody służące do przetestowania ich wszystkich, ale także porównaliśmy pomiary temperatury i ciśnienia do wyników ich analogowych odpowiedników. Ponadto uszyliśmy nowy spadochron oraz udało się nam pozyskać nowych sponsorów: ZIB, STALZBYT PLUS oraz ELAN — dziękujemy za wsparcie."
+        "description": "Na początku tego tygodnia przeprowadziliśmy testy kilku komponentów: termometru, barometru oraz radia. Testy przebiegły pomyślnie i nie tylko byliśmy w stanie wgrać na płytkę kody służące do przetestowania ich wszystkich, ale także porównaliśmy pomiary temperatury i ciśnienia do wyników ich analogowych odpowiedników. Ponadto uszyliśmy nowy spadochron oraz udało się nam pozyskać nowych sponsorów: <i>ZIB</i>, <i>Stalzbyt Plus</i> oraz <i>Elan</i> — dziękujemy za wsparcie."
     },
     {
         "date": "27 grudnia 2025",
-        "description": "W zeszłym tygodniu przeprowadziliśmy testy spadochronu z pomocą OSP w Bliznem. Analizując nagrania oszacowaliśmy prędkość CanSata na około 12&nbsp;m/s. Udało nam się także znaleźć naszego pierwszego sponsora — FHU INSTALATOR Sp. j. Poza tym, opracowaliśmy schemat ideowy CanSata oraz ukończyliśmy jego model 3D."
+        "description": "W zeszłym tygodniu przeprowadziliśmy testy spadochronu z pomocą OSP w Bliznem. Analizując nagrania oszacowaliśmy prędkość CanSata na około 12&nbsp;m/s. Udało nam się także znaleźć naszego pierwszego sponsora — <i>Instalator</i>. Poza tym, opracowaliśmy schemat ideowy CanSata oraz ukończyliśmy jego model 3D."
     },
     {
         "date": "20 grudnia 2025",

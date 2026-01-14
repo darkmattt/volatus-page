@@ -220,6 +220,10 @@ li {
     font-size: 36px;
 }
 
+.sponsor-dialog .panel .wide-img {
+    display: none;
+}
+
 /* Zespół */
 .about {
     display: flex;
@@ -470,7 +474,7 @@ h2.c7 {
 
     .sponsor-tile {
         font-size: 20px;
-        flex: 0 0 15%;
+        /* flex: 0 0 15%; */
     }
 
     .sponsor-dialog {
@@ -488,6 +492,14 @@ h2.c7 {
         width: 15%;
         margin-top: 25px;
         font-size: 20px;
+    }
+
+    .sponsor-dialog .panel .wide-img {
+        display: initial;
+    }
+
+    .sponsor-dialog .panel .narrow-img {
+        display: none;
     }
 
     #strona {
