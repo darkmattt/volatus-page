@@ -154,11 +154,11 @@
             </p>
             <p>
                 Przed wylotem rakiety (która zabierze wszystkie CanSaty na wysokość około 2km) nasz minisatelita
-                sprawdzi swoją pozycję przy pomocy GPS. Póżniej, już przy pomocy IMU — specjalnego zestawu czujników,
+                sprawdzi swoją pozycję przy pomocy GPS. Póżniej, już przy pomocy AHRS — specjalnego zestawu czujników,
                 będziemy sami obliczać swoją pozycję. Będzie się to jednak wiązało z pewnym niewielkim błędem, który
-                będzie wynikał z ograniczeń IMU, którego będziemy mogli użyć, więc co za tym idzie, zsynchronizujemy
-                swoją pozycję z GPS w połowie lotu. Wszelkie dane zebrane podczas misji będą wysłane do stacji
-                naziemnej i zapisane na karcie SD naszego CanSata.
+                będzie wynikał z fizycznych ograniczeń AHRS, którego będziemy w stanie użyć, więc co za tym idzie,
+                zsynchronizujemy swoją pozycję z GPS w połowie lotu. Wszelkie dane zebrane podczas misji będą wysłane do
+                stacji naziemnej i zapisane na karcie SD naszego CanSata.
             </p>
         </div>
         <!-- O zespole -->
@@ -293,9 +293,9 @@
                     z oryginalnym ST-LINK i działa stabilnie w popularnych środowiskach jak STM32CubeIDE czy Keil.
                 </li>
                 <li>
-                    MTI-3-5A-T to nasza IMU, czyli jednostka do nawigacji inercyjnej. Ma ona 3 osie żyroskopów, 3 osie
-                    akcelerometrów oraz 3 osie magnetometrów. Żyroskopy pracują w zakresie do ±2000&nbsp;°/s, więc będą
-                    one poprawnie mierzyć obrót CanSata podczas jego opadania na spadochronie, a akcelerometry
+                    MTI-3-5A-T to nasz AHRS, czyli system odniesienia położenia i kursu. Ma ona 3 osie żyroskopów, 3
+                    osie akcelerometrów oraz 3 osie magnetometrów. Żyroskopy pracują w zakresie do ±2000&nbsp;°/s, więc
+                    będą one poprawnie mierzyć obrót CanSata podczas jego opadania na spadochronie, a akcelerometry
                     rejestrują dane aż do ±16&nbsp;g, co stanowi więcej niż 8&nbsp;g, które możemy napotkać w trakcie
                     startu rakiety.
                 </li>

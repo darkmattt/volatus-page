@@ -1,7 +1,11 @@
 [
     {
+        "date": "17 stycznia 2026",
+        "description": "W tym tygodniu napisaliśmy CDR — nasz drugi raport. Głównym celem tego raportu jest przedstawienie tego, co udało nam się osiągnąć od ostatniego raportu. Powinniśmy w nim przedstawić m.in. wyniki przeprowadzonych przez nas testów czy napisany przez nas kod. Poza tym, zamówiliśmy kolejne materiały promocyjne — naklejki."
+    },
+    {
         "date": "10 stycznia 2026",
-        "description": "Dokonaliśmy kilku poprawek spadochronu, teraz będziemy starać się go przetestować. Przeprowadziliśmy także dokładniejszy test barometru. Ponadto, zamówiliśmy materiały promocyjne — koszulki czy długopisy z naszym logiem. Dziękujemy za wsparcie nowym sponsorom: <i>Eleo-Budmax Mrówka Brzozów</i> oraz <i>Starostwo powiatowe w Brzozowie</i>."
+        "description": "Dokonaliśmy kilku poprawek spadochronu, teraz będziemy starać się go przetestować. Przeprowadziliśmy także dokładniejszy test barometru. Ponadto, zamówiliśmy materiały promocyjne — koszulki oraz długopisy z naszym logiem. Dziękujemy za wsparcie nowym sponsorom: <i>Eleo-Budmax Mrówka Brzozów</i> oraz <i>Starostwo powiatowe w Brzozowie</i>."
     },
     {
         "date": "3 stycznia 2026",
