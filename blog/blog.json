@@ -1,5 +1,17 @@
 [
     {
+        "date": "7 lutego 2026",
+        "description": "Rozwiązaliśmy problemy techniczne z mikrokontrolerem. Zmieniliśmy nasz układ ekeltroniczny, implementując oddzielny moduł z IMU, zamiast instalowania go na jednej płytce z wszystkimi elementami. Taki zabieg ułatwi nam testy wykonywane na CanSacie."
+    },
+    {
+        "date": "31 stycznia 2026",
+        "description": "W tym tygodniu zmieniliśmy algorytm odpowiedzialny za fuzję danych z czujników misji dodatkowej. Dodatkowo, odbyliśmy szkolenia odnośnie lutowania i modelowania 3D podczas wizyty Podkarpackiego Centrum Innowacji w naszej szkole. Przeprowadziliśmy także dogłębną analizę ostatnich testów radiowych i wyciągnęliśmy odpowiednie wnioski."
+    },
+    {
+        "date": "24 stycznia 2026",
+        "description": "W trakcie ostatniego tygodnia przeprowadziliśmy testy radia w terenie — odbieraliśmy pakiety bez żadnych problemów na odległość 2,7&nbsp;km. Napisaliśmy kod, wykorzystujący wszystkie czujniki i zwracający ich pomiary — jest to solidna podstawa do napisania kodu, który będzie wykorzystany w  kampanii startowej. Ponadto przyszły do nas torby, promujące nasz zespół."
+    },
+    {
         "date": "17 stycznia 2026",
         "description": "W tym tygodniu napisaliśmy CDR — nasz drugi raport. Głównym celem tego raportu jest przedstawienie tego, co udało nam się osiągnąć od ostatniego raportu. Powinniśmy w nim przedstawić m.in. wyniki przeprowadzonych przez nas testów czy napisany przez nas kod. Poza tym, zamówiliśmy kolejne materiały promocyjne — naklejki."
     },
