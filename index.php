@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <title>Volatus</title>
     <link rel="icon" href="img/logoM.svg">
-    <link rel="stylesheet" type="text/css" href="styles/styles.css?v=3">
+    <link rel="stylesheet" type="text/css" href="styles/styles.css?v=5">
 </head>
 
 <body>
