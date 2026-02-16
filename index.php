@@ -3,16 +3,20 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="description" content="Volatus to grupa uczniów z I LO w Brzozowie biorąca udział w europejskim konkursie CanSat. Naszą misjią jest przedstawienie działania technologii INS." />
+    <meta property="og:title" content="Volatus">
+    <meta property="og:description" content="Volatus to grupa uczniów z I LO w Brzozowie biorąca udział w europejskim konkursie CanSat. Naszą misjią jest przedstawienie działania technologii INS.">
+    <meta property="og:image" content="img/logoM.svg">
     <title>Volatus</title>
     <link rel="icon" href="img/logoM.svg">
-    <link rel="stylesheet" type="text/css" href="styles/styles.css?v=5">
+    <link rel="stylesheet" type="text/css" href="styles/styles.css?v=6">
 </head>
 
 <body>
     <!-- Pasek -->
     <div id="pasek">
         <a href="https://volatus.pl">
-            <img src="img/logo.svg" alt="Logo">
+            <h1><img src="img/logo.svg" alt="Volatus"></h1>
         </a>
     </div>
 
@@ -48,27 +52,28 @@
         <h2 id="link-sponsors" class="c1">Nasi sponsorzy</h2>
         <div class="flex">
             <button onclick="sponsor1.showModal()" class="tile sponsor-tile">
-                <div class="panel"><img src="img/sponsor/instalator.png" alt="logo firmy"></div>
+                <div class="panel"><img src="img/sponsor/instalator.png" alt="logo firmy Instalator Sp. j."></div>
                 <b>Instalator Sp. j.</b>
             </button>
             <button onclick="sponsor2.showModal()" class="tile sponsor-tile">
-                <div class="panel"><img src="img/sponsor/zib.png" alt="logo firmy"></div>
+                <div class="panel"><img src="img/sponsor/zib.png" alt="logo firmy ZIB Sp. j."></div>
                 <b>ZIB Sp. j.</b>
             </button>
             <button onclick="sponsor3.showModal()" class="tile sponsor-tile">
-                <div class="panel"><img src="img/sponsor/stalzbyt.png" alt="logo firmy"></div>
+                <div class="panel"><img src="img/sponsor/stalzbyt.png" alt="logo firmy Stalzbyt Plus"></div>
                 <b>Stalzbyt Plus</b>
             </button>
             <button onclick="sponsor4.showModal()" class="tile sponsor-tile">
-                <div class="panel"><img src="img/sponsor/elan.png" alt="logo firmy"></div>
+                <div class="panel"><img src="img/sponsor/elan.png" alt="logo firmy Elan Sp. z o.o. Sp.k"></div>
                 <b>Elan Sp. z o.o. Sp.k</b>
             </button>
             <button onclick="sponsor5.showModal()" class="tile sponsor-tile">
-                <div class="panel"><img src="img/sponsor/mrowka.png" alt="logo firmy"></div>
+                <div class="panel"><img src="img/sponsor/mrowka.png" alt="logo firmy Eleo-Budmax Mrówka Brzozów"></div>
                 <b>Eleo-Budmax Mrówka Brzozów</b>
             </button>
             <button onclick="sponsor6.showModal()" class="tile sponsor-tile">
-                <div class="panel"><img src="img/sponsor/powiat-narrow.png" alt="logo firmy"></div>
+                <div class="panel"><img src="img/sponsor/powiat-narrow.png"
+                        alt="logo firmy Starostwo powiatowe w Brzozowie"></div>
                 <b>Starostwo powiatowe w Brzozowie</b>
             </button>
         </div>
@@ -138,34 +143,40 @@
         </dialog>
         <!-- O misji -->
         <h2 class="c1" id="link-mission">O misji</h2>
-        <div class="panel">
-            <p>
-                Konkurs CanSat to wyzwanie organizowane przez Europejską Agencję Kosmiczną dla młodzieży. Polega na
-                zbudowaniu minisatelity wielkości puszki, który wykona zadania badawcze.
-            </p>
-            <p>
-                Każda drużyna musi zrealizować dwie misje: misję podstawową, realizowaną przez wszystkich i misję
-                dodatkową, wybieraną osobno przez każdy zespół. Misja podstawowa polega na zbadaniu temperatury i
-                ciśnienia, na różnych wysokościach oraz na przesłaniu tych danych na ziemię.
-            </p>
-            <p>
-                Naszym celem, który obraliśmy sobie jako naszą misję dodatkową jest przedstawienie działania technologii
-                INS. Jest to system, który umożliwia poznanie swoich współrzędnych przy ograniczonym korzystaniu z GPS.
-            </p>
-            <p>
-                Przed wylotem rakiety (która zabierze wszystkie CanSaty na wysokość około 2km) nasz minisatelita
-                sprawdzi swoją pozycję przy pomocy GPS. Póżniej, już przy pomocy AHRS — specjalnego zestawu czujników,
-                będziemy sami obliczać swoją pozycję. Będzie się to jednak wiązało z pewnym niewielkim błędem, który
-                będzie wynikał z fizycznych ograniczeń AHRS, którego będziemy w stanie użyć, więc co za tym idzie,
-                zsynchronizujemy swoją pozycję z GPS w połowie lotu. Wszelkie dane zebrane podczas misji będą wysłane do
-                stacji naziemnej i zapisane na karcie SD naszego CanSata.
-            </p>
-        </div>
+        <main>
+            <div class="panel">
+                <p>
+                    Konkurs CanSat to wyzwanie organizowane przez Europejską Agencję Kosmiczną dla młodzieży. Polega na
+                    zbudowaniu minisatelity wielkości puszki, który wykona zadania badawcze.
+                </p>
+                <p>
+                    Każda drużyna musi zrealizować dwie misje: misję podstawową, realizowaną przez wszystkich i misję
+                    dodatkową, wybieraną osobno przez każdy zespół. Misja podstawowa polega na zbadaniu temperatury i
+                    ciśnienia, na różnych wysokościach oraz na przesłaniu tych danych na ziemię.
+                </p>
+                <p>
+                    Naszym celem, który obraliśmy sobie jako naszą misję dodatkową jest przedstawienie działania
+                    technologii INS. Jest to system, który umożliwia poznanie swoich współrzędnych przy ograniczonym
+                    korzystaniu z
+                    GPS.
+                </p>
+                <p>
+                    Przed wylotem rakiety (która zabierze wszystkie CanSaty na wysokość około 2km) nasz minisatelita
+                    sprawdzi swoją pozycję przy pomocy GPS. Póżniej, już przy pomocy AHRS — specjalnego zestawu
+                    czujników, będziemy sami obliczać swoją pozycję. Będzie się to jednak wiązało z pewnym niewielkim
+                    błędem, który będzie wynikał z fizycznych ograniczeń AHRS, którego będziemy w stanie użyć, więc co
+                    za tym idzie, zsynchronizujemy swoją pozycję z GPS w połowie lotu. Wszelkie dane zebrane podczas
+                    misji będą wysłane do stacji naziemnej i zapisane na karcie SD naszego CanSata.
+                </p>
+            </div>
+        </main>
         <!-- O zespole -->
         <h2 class="c1" id="link-about">O zespole</h2>
         <div class="panel">
-            <p>Jesteśmy zespołem z I Liceum Ogólnokształcącego w Brzozowie. W skład grupy wchodzi pięcioro uczniów klasy
-                trzeciej i jeden uczeń z klasy drugiej, a naszym opiekunem jest pani Joanna Chęć.</p>
+            <p>
+                Jesteśmy zespołem z I Liceum Ogólnokształcącego w Brzozowie. W skład grupy wchodzi pięcioro uczniów
+                klasy trzeciej i jeden uczeń z klasy drugiej, a naszym opiekunem jest pani Joanna Chęć.
+            </p>
         </div>
         <div class="panel about">
             <div class="about-text">

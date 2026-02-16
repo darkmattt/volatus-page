@@ -24,7 +24,7 @@ dialog {
 body {
     background: linear-gradient(-20deg, #000, #0c1d3e);
     background-size: 400% 400%;
-    animation: bg-gradient 15s ease infinite;
+    animation: bg-gradient 10s ease infinite;
     /* min-height: 100vh; */
     /* background-attachment: fixed; */
 }
@@ -93,13 +93,16 @@ body {
     padding: 0 20px;
 }
 
-h1 {
-    font-size: 64px;
-    text-align: center;
+#h1 {
     margin: 10px 0 50px 0;
     padding: 10px;
     border: 2px solid #0ff;
     border-radius: 10px;
+}
+
+h1 {
+    font-size: 64px;
+    text-align: center;
     font-family: "Montserrat", sans-serif;
 }
 

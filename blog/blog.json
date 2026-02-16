@@ -1,5 +1,9 @@
 [
     {
+        "date": "14 lutego 2026",
+        "description": "Przeprowadziliśmy testy GPS oraz spadochronu. Poza tym, napisaliśmy kod, który będzie wykonywany przez CanSata w trakcie wykonywania misji podstawowej. Poczyniliśmy duże postępy w przygotowaniu filtra (CKF), którego będziemy wykorzystywać w INS."
+    },
+    {
         "date": "7 lutego 2026",
         "description": "Rozwiązaliśmy problemy techniczne z mikrokontrolerem. Zmieniliśmy nasz układ ekeltroniczny, implementując oddzielny moduł z IMU, zamiast instalowania go na jednej płytce z wszystkimi elementami. Taki zabieg ułatwi nam testy wykonywane na CanSacie."
     },
@@ -9,7 +13,7 @@
     },
     {
         "date": "24 stycznia 2026",
-        "description": "W trakcie ostatniego tygodnia przeprowadziliśmy testy radia w terenie — odbieraliśmy pakiety bez żadnych problemów na odległość 2,7&nbsp;km. Napisaliśmy kod, wykorzystujący wszystkie czujniki i zwracający ich pomiary — jest to solidna podstawa do napisania kodu, który będzie wykorzystany w  kampanii startowej. Ponadto przyszły do nas torby, promujące nasz zespół."
+        "description": "W trakcie ostatniego tygodnia przeprowadziliśmy testy radia w terenie — odbieraliśmy pakiety bez żadnych problemów na odległość 2,7&nbsp;km. Napisaliśmy kod, wykorzystujący wszystkie czujniki i zwracający ich pomiary — jest to solidna podstawa do napisania kodu, który będzie wykorzystany w kampanii startowej. Ponadto przyszły do nas torby, promujące nasz zespół."
     },
     {
         "date": "17 stycznia 2026",
