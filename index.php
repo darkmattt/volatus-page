@@ -194,17 +194,16 @@
         </div>
         <div class="panel about">
             <div class="about-text">
-                <h3>Filip Matwijczyk</h3>
-                <p>Mam 17 lat i chodzę do klasy 3A. Rozszerzam matematykę, informatykę oraz angielski na poziomie
-                    dwujęzycznym. Interesuję się sportami walki oraz montażem filmowym. Moją główną rolą w projekcie
-                    jest jego dokumentacja w postaci pisania raportów (PDR, CDR, FDR) oraz zbierania funduszy na budowę
-                    CanSata. Biorę udział w tym konkursie, bo chcę, aby był on dla mnie okazją dla rozwoju osobistego
-                    oraz swojego rodzaju wyzwaniem, które wyciągnie mnie spoza własnej strefy komfortu i wzbogaci o nowe
-                    doświadczenia oraz wspólne wspomnienia z innymi członkami drużyny.</p>
-                <p><a class="p-link" href="filip-matwijczyk/">Więcej…</a></p>
+                <h3>Mateusz Rzepka</h3>
+                <p>Chodzę do klasy 3A i mam 16 lat. Rozszerzam matematykę, informatykę oraz angielski na poziomie
+                    dwujęzycznym. Interesuję się programowaniem, pisaniem stron internetowych, matematyką i technologią
+                    kosmiczną. W czasie wolnym gram w brydża i uczę się języka łacińskiego. Biorę udział w tym
+                    konkursie, ponieważ chcę przetestować swoje siły w zadaniu, które łączy naukę z pasją do technologii
+                    i sprawdzić, jak poradzę sobie w obliczu czekających mnie wyzwań.</p>
+                <p><a class="p-link" href="mateusz-rzepka/">Więcej…</a></p>
             </div>
             <div class="about-img">
-                <a href="filip-matwijczyk/"><img src="img/filipek.jpg" alt="Filip Matwijczyk"></a>
+                <a href="mateusz-rzepka/"><img src="img/mateusz.jpg" alt="Mateusz Rzepka"></a>
             </div>
         </div>
         <div class="panel about">
@@ -241,20 +240,6 @@
         </div>
         <div class="panel about">
             <div class="about-text">
-                <h3>Mateusz Rzepka</h3>
-                <p>Chodzę do klasy 3A i mam 16 lat. Rozszerzam matematykę, informatykę oraz angielski na poziomie
-                    dwujęzycznym. Interesuję się programowaniem, pisaniem stron internetowych, matematyką i technologią
-                    kosmiczną. W czasie wolnym gram w brydża i uczę się języka łacińskiego. Biorę udział w tym
-                    konkursie, ponieważ chcę przetestować swoje siły w zadaniu, które łączy naukę z pasją do technologii
-                    i sprawdzić, jak poradzę sobie w obliczu czekających mnie wyzwań.</p>
-                <p><a class="p-link" href="mateusz-rzepka/">Więcej…</a></p>
-            </div>
-            <div class="about-img">
-                <a href="mateusz-rzepka/"><img src="img/mateusz.jpg" alt="Mateusz Rzepka"></a>
-            </div>
-        </div>
-        <div class="panel about">
-            <div class="about-text">
                 <h3>Krzysztof Pisula</h3>
                 <p>Mam 16 lat i uczęszczam do klasy 3A, gdzie rozszerzam matematykę, informatykę oraz angielski na
                     poziomie dwujęzycznym. Interesuję się programowaniem, modelowaniem 3D i geopolityką. Hobbystycznie
@@ -279,6 +264,21 @@
             </div>
             <div class="about-img">
                 <a href="jan-krol/"><img src="img/janek.jpg" alt="Jan Król"></a>
+            </div>
+        </div>
+        <div class="panel about">
+            <div class="about-text">
+                <h3>Filip Matwijczyk</h3>
+                <p>Mam 17 lat i chodzę do klasy 3A. Rozszerzam matematykę, informatykę oraz angielski na poziomie
+                    dwujęzycznym. Interesuję się sportami walki oraz montażem filmowym. Moją główną rolą w projekcie
+                    jest jego dokumentacja w postaci pisania raportów (PDR, CDR, FDR) oraz zbierania funduszy na budowę
+                    CanSata. Biorę udział w tym konkursie, bo chcę, aby był on dla mnie okazją dla rozwoju osobistego
+                    oraz swojego rodzaju wyzwaniem, które wyciągnie mnie spoza własnej strefy komfortu i wzbogaci o nowe
+                    doświadczenia oraz wspólne wspomnienia z innymi członkami drużyny.</p>
+                <p><a class="p-link" href="filip-matwijczyk/">Więcej…</a></p>
+            </div>
+            <div class="about-img">
+                <a href="filip-matwijczyk/"><img src="img/filipek.jpg" alt="Filip Matwijczyk"></a>
             </div>
         </div>
         <!-- Hardware -->

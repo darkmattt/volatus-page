@@ -1,5 +1,13 @@
 [
     {
+        "date": "28 lutego 2026",
+        "description": "W tym tygodniu pracowaliśmy trochę mniej — kilka osób pojechało na ferie. Domówiliśmy jednakże więcej naklejek z naszym logiem, jako że zbliżają się dni otwarte naszej szkoły i będziemy potrzebowali ich więcej."
+    },
+    {
+        "date": "21 lutego 2026",
+        "description": "Minęło tyle czasu od wyboru Filipa Matwijczyka na lidera, ile Maciej Skarbek był nim wcześniej. Bycie liderem to ciężka praca, więc postanowiliśmy o kolejnej zmianie. Początkiem tego tygodnia na nowego lidera został wybrany Mateusz Rzepka. Poza tym, wysłaliśmy listy do większych firm z prośbą o sponsoring."
+    },
+    {
         "date": "14 lutego 2026",
         "description": "Przeprowadziliśmy testy GPS oraz spadochronu. Poza tym, napisaliśmy kod, który będzie wykonywany przez CanSata w trakcie wykonywania misji podstawowej. Poczyniliśmy duże postępy w przygotowaniu filtra (CKF), którego będziemy wykorzystywać w INS."
     },
