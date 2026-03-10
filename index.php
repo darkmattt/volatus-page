@@ -3,9 +3,11 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="description" content="Volatus to grupa uczniów z I LO w Brzozowie biorąca udział w europejskim konkursie CanSat. Naszą misjią jest przedstawienie działania technologii INS." />
+    <meta name="description"
+        content="Volatus to grupa uczniów z I LO w Brzozowie biorąca udział w europejskim konkursie CanSat. Naszą misjią jest przedstawienie działania technologii INS." />
     <meta property="og:title" content="Volatus">
-    <meta property="og:description" content="Volatus to grupa uczniów z I LO w Brzozowie biorąca udział w europejskim konkursie CanSat. Naszą misjią jest przedstawienie działania technologii INS.">
+    <meta property="og:description"
+        content="Volatus to grupa uczniów z I LO w Brzozowie biorąca udział w europejskim konkursie CanSat. Naszą misjią jest przedstawienie działania technologii INS.">
     <meta property="og:image" content="img/logoM.svg">
     <title>Volatus</title>
     <link rel="icon" href="img/logoM.svg">
@@ -315,6 +317,11 @@
                     256&nbsp;KB Flash, 64&nbsp;KB RAM, zasilanie 3,3&nbsp;V, oraz bogaty zestaw peryferiów: GPIO, ADC,
                     I2C, SPI, UART, USB OTG. Programowanie i debugowanie odbywa się przez SWD z użyciem programatora
                     ST-Link, co czyni ją dobrą alternatywą dla Arduino w bardziej zaawansowanych projektach.
+                </li>
+                <li>
+                    RF-96 to nadajnik radiowy używany do bezprzewodowego przesyłania sygnałów. Urzadzenie zamienia
+                    sygnał elektryczny na fale radiowe, które mogą być odebrane przez odpowiedni odbiornik. Takie
+                    nadajniki stosuje się m. in. w sysemach sterowania, telemetrii oraz komunikacji bezprzewodowej.
                 </li>
             </ul>
         </div>
