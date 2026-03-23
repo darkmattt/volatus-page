@@ -1,6 +1,14 @@
 [
     {
-        "date":"7 marca 2026",
+        "date": "21 marca 2026",
+        "description": "W połowie tego tygodnia w najszej szkole odbywały się dni otwarte. Wykorzystaliśmy ten czas, aby przedstawić jak najszerszej grupie osób zarówno sam konkurs CanSat, jak i polskie osiągnięcia w przemyśle kosmicznym. Poza tym, skończyliśmy pisać filtr CKF, który jest kluczową częścią naszej misji dodatkowej."
+    },
+    {
+        "date": "14 marca 2026",
+        "description": "Napisaliśmy kod do obsługi odbiornika radiowego w stacji radiowej. W następnym tygodniu mają się odbyć dni otwarte w naszej szkole, więc mocno się do nich przygotowywaliśmy. Dodatkowo, zakończyliśmy optymalizaję CKF-a — filtra, którego wymaga prezentowany przez nas w misji dodatkowej INS — a także zaczęliśmy przygotowywać jego finalną wersję, którą uruchamiał będzie mikrokontroler na pokładzie CanSata. "
+    },
+    {
+        "date": "7 marca 2026",
         "description": "W trakcie tego tygodnia przygotowaliśmy finalną, poprawioną wersję obudowy CanSata, jako, że wcześniejsza wersja była znacznie mniej odporna na upadek. Dokończyliśmy też i zamówiliśmy roll-up naszego zespołu, który przyda się na nadchodzące dni otwarte naszej szkoły."
     },
     {
