@@ -1,7 +1,11 @@
 [
     {
+        "date": "28 marca 2026",
+        "description": "Na początku tego tygodnia odwiedziliśmy uczniów klasy 7. szkoły podstawowej w Brzozowie i zaprezentowaliśmy im konkurs CanSat oraz polski przemysł kosmiczny. Udało nam się także napisać ostateczne oprogramowanie CanSata. Ponadto przeprowadziliśmy ostatnie testy komponentów. Pod koniec tego tygodnia ukończyliśmy pisanie FDR-a — ostatniego raportu, który podsumowywuje całą naszą pracę i na podstawie którego jesteśmy oceniani odnośnie tego, czy przejdziemy dalej w konkursie i znajdziemy się na kampanii startowej."
+    },
+    {
         "date": "21 marca 2026",
-        "description": "W połowie tego tygodnia w najszej szkole odbywały się dni otwarte. Wykorzystaliśmy ten czas, aby przedstawić jak najszerszej grupie osób zarówno sam konkurs CanSat, jak i polskie osiągnięcia w przemyśle kosmicznym. Poza tym, skończyliśmy pisać filtr CKF, który jest kluczową częścią naszej misji dodatkowej."
+        "description": "W połowie tego tygodnia w naszej szkole odbywały się dni otwarte. Wykorzystaliśmy ten czas, aby przedstawić jak najszerszej grupie osób zarówno sam konkurs CanSat, jak i polskie osiągnięcia w przemyśle kosmicznym. Poza tym, skończyliśmy pisać filtr CKF, który jest kluczową częścią naszej misji dodatkowej."
     },
     {
         "date": "14 marca 2026",
