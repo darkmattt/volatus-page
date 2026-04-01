@@ -1,7 +1,7 @@
 [
     {
         "date": "28 marca 2026",
-        "description": "Na początku tego tygodnia odwiedziliśmy uczniów klasy 7. szkoły podstawowej w Brzozowie i zaprezentowaliśmy im konkurs CanSat oraz polski przemysł kosmiczny. Udało nam się także napisać ostateczne oprogramowanie CanSata. Ponadto przeprowadziliśmy ostatnie testy komponentów. Pod koniec tego tygodnia ukończyliśmy pisanie FDR-a — ostatniego raportu, który podsumowywuje całą naszą pracę i na podstawie którego jesteśmy oceniani odnośnie tego, czy przejdziemy dalej w konkursie i znajdziemy się na kampanii startowej."
+        "description": "Na początku tego tygodnia odwiedziliśmy uczniów klasy 7. szkoły podstawowej w Brzozowie i zaprezentowaliśmy im konkurs CanSat oraz polski przemysł kosmiczny. Udało nam się także napisać ostateczne oprogramowanie CanSata <a class=\"p-link\" href=\"https://github.com/volatus-CanSat/volatus-code-CanSat\">(GitHub)</a>. Ponadto przeprowadziliśmy ostatnie testy komponentów. Pod koniec tego tygodnia ukończyliśmy pisanie FDR-a — ostatniego raportu, który podsumowywuje całą naszą pracę i na podstawie którego jesteśmy oceniani odnośnie tego, czy przejdziemy dalej w konkursie i znajdziemy się na kampanii startowej."
     },
     {
         "date": "21 marca 2026",
