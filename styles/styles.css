@@ -455,6 +455,22 @@ h2.c7 {
 }
 
 
+/* Kraków */
+.krk-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    gap: 25px;
+}
+
+.krk-grid-tag {
+    text-align: right;
+
+}
+
+.krk-grid-value {
+    text-align: left;
+}
 
 /* Responsywność */
 @media (min-width: 1200px) {
@@ -569,6 +585,10 @@ h2.c7 {
     .center {
         width: 33%;
         display: inline-block;
+    }
+
+    .krk-grid {
+        grid-template-columns: 1fr 1fr;
     }
 
 }
