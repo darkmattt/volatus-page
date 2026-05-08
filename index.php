@@ -1,5 +1,5 @@
 <?php
-header("Location: https://volatus.pl/krakow", true, 301);
+header("Location: ./krakow", true, 301);
 exit();
 ?>
 <!DOCTYPE html>
