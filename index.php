@@ -1,3 +1,7 @@
+<?php
+header("Location: https://volatus.pl/krakow", true, 301);
+exit();
+?>
 <!DOCTYPE html>
 <html lang="pl">
 
