@@ -1,7 +1,3 @@
-<?php
-header("Location: ./krakow", true, 301);
-exit();
-?>
 <!DOCTYPE html>
 <html lang="pl">
 

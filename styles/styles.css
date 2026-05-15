@@ -472,6 +472,17 @@ h2.c7 {
     text-align: left;
 }
 
+.schedule {
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+}
+
+.inside-ul {
+    padding-left: 86px;
+    list-style-type: "०  ";
+}
+
 /* Responsywność */
 @media (min-width: 1200px) {
 
@@ -591,4 +602,7 @@ h2.c7 {
         grid-template-columns: 1fr 1fr;
     }
 
+    .schedule {
+        width: 55px;
+    }
 }
